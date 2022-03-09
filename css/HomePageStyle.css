@@ -1,0 +1,270 @@
+    /* Mostafa Edits @1/14/2020 4:31PM */
+    
+    .HomePage .full-height {
+        min-height: 100vh;
+    }
+    
+    .HomePage .background-white {
+        background: #ffffff;
+    }
+    
+    .HomePage.bordered-20 {
+        background-color: #fff !important;
+        height: auto;
+    }
+    
+    .HomePage .background-red-height-145 {
+        background-color: #8e1236;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .HomePage .background-red-height-105 {
+        background-color: #8e1236;
+        height: 105px;
+        padding: 20px 60px 20px 60px;
+    }
+    
+    .HomePage .ToContactUS i {
+        color: #f90;
+        float: right;
+        margin-top: 36px;
+        margin-right: 25px;
+    }
+    
+    .HomePage .font-white {
+        color: #fff;
+    }
+    
+    .HomePage .no-background.dropdown-toggle {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+    }
+    
+    .HomePage .dropdown-menu {
+        box-shadow: none;
+        margin-left: -15px;
+    }
+    
+    .HomePage .dropdown-menu li a {
+        text-align: right;
+    }
+    
+    .HomePage .dropdown-menu li a:hover {
+        color: #262626;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    .HomePage .font-24 {
+        font-size: 24px;
+        /* font-family: sans-serif; */
+    }
+    
+    .HomePage .no-pad {
+        padding: 0;
+    }
+    /* Mostafa @4:30PM 1/14/2020*/
+    
+    .HomePage .Fg-red.text-center {
+        color: #8e1236;
+        /* font-size: 21pt;
+        font-family: sans-serif; */
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+    }
+    
+    .HomePage .book-icon {
+        background-image: url(../img/Icons.png);
+        /* background-image: url(../img/Icons.png); */
+        display: block;
+        width: 90px;
+        height: 80px;
+        background-position: -139px -29px;
+    }
+    
+    .HomePage .study-icon {
+        background-image: url(../img/Icons.png);
+        /* background-image: url(../img/Icons.png); */
+        display: block;
+        width: 90px;
+        height: 80px;
+        background-position: -139px -150px;
+    }
+    
+    .HomePage .Cert-icon {
+        background-image: url(../img/Icons.png);
+        /* background-image: url(../img/Icons.png); */
+        display: block;
+        width: 90px;
+        height: 80px;
+        background-position: -16px -30px;
+    }
+    
+    .HomePage .SchoolCert-icon {
+        background-image: url(../img/Icons.png);
+        /* background-image: url(../img/Icons.png); */
+        display: block;
+        width: 90px;
+        height: 80px;
+        background-position: -14px -168px;
+    }
+    
+    .HomePage span.Title {
+        display: block;
+        font-size: 14px;
+        font-family: sans-serif;
+        color: #c00000;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .HomePage span.Desc {
+        display: block;
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-top: 0;
+    }
+    
+    .HomePage a.btn.btn-Red {
+        background-color: #8d1439;
+        color: #fff;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding: 10px 30px;
+        font-weight: bold;
+        display: block;
+        font-weight: bold;
+        margin-left: 20%;
+        margin-bottom: 8px;
+    }
+    
+    .HomePage a.btn.fg-Red {
+        width: 60% !important;
+        font-weight: bolder;
+        color: #8d1439;
+        text-decoration: underline;
+        text-align: center;
+        font-family: sans-serif;
+        display: block;
+        clear: both;
+        margin-right: 20%;
+    }
+    
+    .HomePage a.font-white:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .HomePage .background-red-height-136:last-child {
+        background-color: #8e1236;
+        height: 136px;
+        padding: 20px;
+    }
+    
+    .HomePage img.img-responsive.TheMainlogo {
+        height: 70px;
+    }
+    
+    .float-right {
+        float: right;
+    }
+    
+    .LoginByTitle.text-left.font-24.font-white {
+        /* margin-left: 120px; */
+    }
+    
+    .row.background-white.Line-height-0 {
+        line-height: 0;
+    }
+    
+    nav.navbar.navbar-default.moe-navbar.page-padding.homeNav,
+    span#DeltaPlaceHolderMain>br,
+    nav.navbar.navbar-default.moe-navbar.page-padding.homeNav,
+    .ms-rtestate-field>br {
+        display: none;
+    }
+    
+    .row.background-white:last-child>div.col-sm-4 {
+        margin-top: -125px;
+    }
+    
+    footer.he-footer.page-padding {
+        margin-top: 13px;
+    }
+    
+    br {
+        display: none;
+    }
+    
+    .row.padding-120 {
+        margin-top: 10px;
+    }
+    
+    @media screen and (max-width: 560px) {
+        .LoginByTitle.text-left.font-24.font-white {
+            margin-left: 0;
+            text-align: left;
+        }
+        .HomePage .Fg-red.text-center {
+            font-size: 20pt;
+        }
+        .HomePage span.Title {
+            font-size: 130%;
+            margin: 10px 0;
+        }
+        .HomePage .Cert-icon,
+        .HomePage .book-icon,
+        .HomePage .SchoolCert-icon,
+        .HomePage .study-icon {
+            margin: 0px auto;
+        }
+        .HomePage .First-Row,
+        .HomePage .Second_ROW {
+            display: grid !important;
+        }
+        .HomePage .SecondElment {
+            order: 2;
+            padding-bottom: 5px;
+        }
+        .HomePage .row.background-white .col-sm-6.col-md-4 .row .col-sm-10 {
+            order: 2;
+            margin-bottom: 20px;
+        }
+        .HomePage .ButtonActions {
+            order: 3;
+        }
+        .HomePage span.Title {
+            margin-top: 0px;
+        }
+        .HomePage a.btn.btn-Red {
+            width: 100%;
+            text-align: center !important;
+            margin-top: 40px;
+            margin-left: 0px !important;
+            margin-right: 0px;
+        }
+        .HomePage .row.background-white:last-child>div.col-sm-4 {
+            margin-top: 0px;
+        }
+        .HomePage a.btn.fg-Red {
+            width: 100% !important;
+            text-align: center !important;
+            display: block;
+            float: unset !important;
+            font-size: 16px;
+        }
+        .HomePage.bordered-20 {
+            height: auto !important;
+        }
+        .text-right,
+        .text-left {
+            text-align: center;
+        }
+        .row.padding-120 {
+            margin-top: 0;
+        }
+    }

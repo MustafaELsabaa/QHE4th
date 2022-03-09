@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Home Page</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="css/HomePageStyle.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container-fluid full-height background-white bordered-20 HomePage  ">
+        <div class="row background-red-height-145 header">
+            <div class="col-12">
+                <a class="font-white" href="">
+                    <div class="LoginByTitle text-center font-24 font-white"> دخول الموظفين </div>
+                </a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="moe-logo" href="#"><img class=" logo" src="img/moe-logo.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+
+                    <li class="lang-btn">
+                        <input type="hidden" name="ctl00$ctl75$hdnVarLabel" id="ctl00_ctl75_hdnVarLabel" value="en">
+                        <a id="ctl00_ctl75_lnkbtn_Language" class="lang font-weight-bold fg-black test" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl75$lnkbtn_Language&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">English</a>
+
+                    </li>
+                    <li class="access-icons flex-display">
+                        <a class="access-theme fg-white" onclick="inverseColors();return false">
+                        </a>
+                        <a class="decrease-font fg-white" onclick="decreaseFont();return false">
+
+                        </a>
+                        <a class="main-font fg-white" onclick="setdefaultFont();return false">
+
+                        </a>
+                        <a class="increase-font fg-white" onclick="increaseFont();return false">
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+        <div class="row PT-34  pb-5 ">
+
+            <div class="col-12 PT-34  pb-5 Title">
+                <h1 class="Fg-red text-center"> البوابة الالكترونية لمعادلة الشهادات والموافقة المسبقة</h1>
+            </div>
+
+        </div>
+        <div class="row padding-120 First-Row">
+            <div class="col-4">
+
+            </div>
+
+            <div class="col-4 SecondElment">
+                <div class="row First-Row ">
+
+
+
+                    <div class="col-9 SecondElment "><span class="Title text-right">نظام معادلة الشهادات الجامعية   </span>
+                        <br>
+                        <span class="Desc text-right">
+							الدليل الارشادي - شروط معادلة الشهادات 2020  </span>
+                    </div>
+                    <div class="col-3 no-pad">
+                        <div class="Cert-icon"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 FirstElment">
+                <div class="row First-Row ">
+
+
+
+                    <div class="col-9 SecondElment "><span class="Title text-right ">إستخدام البوابة </span><br><span class="Desc text-right">
+                        دليل إستخدام البوابة</span>
+                    </div>
+                    <div class="col-3 no-pad">
+                        <div class="book-icon"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row padding-120 Second_ROW">
+            <div class="col-4 ButtonActions">
+
+                <a href="RequestData.html" class="btn btn-Red">دخول</a>
+                <a href="#a" class="btn fg-Red">هل نسيت كلمة المرور؟</a>
+
+            </div>
+            <div class="col-4">
+                <div class="row First-Row ">
+                    <div class="col-9  SecondElment "><span class="Title text-right">نظام معادلة الشهادات المدرسية   </span>
+                        <br>
+                        <span class="Desc text-right">
+					<br>	أسس ومعايير معادلة الشهادات المدرسية في دولة قطر-عربي
+					<br>	المستندات المطلوبة لتقديم 	طلب معادلة الشهادات المدرسية قطر-عربي
+					<br>	أسس ومعايير معادلة الشهادات المدرسية في دولة قطر-إنجليزي
+					<br>	المستندات المطلوبة لتقديم طلب معادلة الشهادة المدرسية -إنجليزي  </span>
+                    </div>
+                    <div class="col-3 no-pad">
+                        <div class="SchoolCert-icon"></div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row First-Row">
+
+
+                    <div class="col-9 SecondElment "><span class="Title text-right">نظام الموافقة المسبقة للدراسة على النفقة الخاصة </span>
+                        <br>
+                        <span class="Desc text-right">
+							الدليل الارشادي - شروط الموافقة المسبقة 2020  </span>
+                    </div>
+                    <div class="col-3 no-pad">
+                        <div class="study-icon"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="Js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/bootstrap-datepicker.min.js'></script>
+    <script src="DataTables/datatables.min.js "></script>
+
+    <script src="js/Custom.js "></script>
+</body>
+
+</html>
